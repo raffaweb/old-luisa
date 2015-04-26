@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>TGISFI.GA</title>
+	<style type="text/css">
+	img {
+		width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+	#egg { position: absolute; top: 0; left:0; right: 0; display: none; }
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+</head>
+<body>
+<img src="bg.png" alt="tgisfi.ga"/>
+<img id="egg" src="egg.jpg" alt="Cazzola Matrix"/>
+<script type="text/javascript">var egg = new Egg("c,a,z,z,o,l,a", function() {
+  jQuery('#egg').fadeIn(500, function() {
+  	console.log( "EGG!" );
+    window.setTimeout(function() { jQuery('#egg').hide(); }, 5000);
+  });
+}).listen();
+</script>
+</body>
+</html>
