@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include navbar-works.html %}
+
+    <section id="webinars" class="bg-light-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Webinar</h2>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 3em;">
+                <div class="col-lg-offset-1 col-lg-10">
+                    {{content}}
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

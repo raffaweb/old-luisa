@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include navbar-services.html %}
+
+    <section id="training" class="bg-light-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Training</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+
+            <div class="row">
+            {% for post in site.categories['training'] %}
+                <div class="col-md-4 col-sm-4 portfolio-item">
+                    <a href="#training-{{ post.title | slugify }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover"></div>
+                        <img src="/img/services/training/{{ post.thumbnail }}" class="img-responsive" alt="{{ post.title }}">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+
+            <div class="row" style="margin-top: 3em;">
+                <div class="col-lg-offset-1 col-lg-10">
+                    {{content}}
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- Modals -->
+     {% for post in site.categories['training'] %}
+        <div class="portfolio-modal modal fade" id="training-{{ post.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <h2>{{ post.title }}</h2>
+                                <hr class="star-primary">
+                                <img src="/img/services/training/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.title }}">
+                                <div class=" text-left">{{ post.content }}</div>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

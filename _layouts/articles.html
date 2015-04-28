@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include navbar-works.html %}
+
+    <section id="articles" class="bg-light-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Articoli</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        {% for post in site.categories['articles'] %}
+                        <li class="{% cycle '', 'timeline-inverted' %}">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="/img/works/articles/{{ post.img }}" alt="{{ post.title }}">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>{{post.title}}</h4>
+                                    <h4 class="subheading">{{post.subtitle}}</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted" style="font-size: 22px" {{post.content}}</p>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

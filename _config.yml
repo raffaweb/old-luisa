@@ -1,0 +1,22 @@
+url: http://dev.luisaferrario.com/
+baseurl:
+
+title: luisaferrario
+email: luisaferrariocoach@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+color:
+  primary: f1b23b
+  secondary: f1c03b
+  secondary-dark: 333
+
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/pub/luisa-ferrario/21/350/20a
+  - title: twitter
+    url: https://twitter.com/luferrariocoach
+  - title: facebook
+    url: https://it-it.facebook.com/luisa.ferrario.7
+
+markdown: kramdown
+permalink: pretty
