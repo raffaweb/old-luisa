@@ -1,6 +1,6 @@
 #!/bin/bash
 
 now=$(date)
-echo $date > .date
+echo $now > .date
 hg ci -m "Published on $now"
 hg push
