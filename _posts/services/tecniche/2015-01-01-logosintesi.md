@@ -18,17 +18,15 @@ Lavorano nel nostro essere e producono degli effetti che vanno ben oltre la semp
 
 Aprono e chiudono porte a noi sconosciute, risolvono stati emotivi negativi, dissolvono immagini scomode, inutili, dolorose, portano vita dove prima c'era sofferenza, appianano la strada dove prima c'erano ostacoli ritenuti insormontabili, **rendono libera e fruibile l'energia che prima era cristallizzata** nello spazio-tempo più impensato del nostro corpo o del nostro spazio personale.
 
- 
-
 I quattro principi chiave su cui si basa sono:
 
-•  _La nostra vera essenza non soffre: il dolore nasce quando non si ha coscienza dell'essenza e del proprio compito nel mondo._
+* _La nostra vera essenza non soffre: il dolore nasce quando non si ha coscienza dell'essenza e del proprio compito nel mondo._
 
-•  _La consapevolezza della nostra vera essenza è ridotta o impedita dalla _**_DISSOCIAZIONE _**_e dalla _**_INTROIEZIONE_**.
+* _La consapevolezza della nostra vera essenza è ridotta o impedita dalla _**_DISSOCIAZIONE _**_e dalla _**_INTROIEZIONE_**.
 
-•  _Parti dissociate ed introiezioni sono strutture energetiche rigide in uno spazio pluridimensionale, non sono solo concetti astratti_
+* _Parti dissociate ed introiezioni sono strutture energetiche rigide in uno spazio pluridimensionale, non sono solo concetti astratti_
 
-•  _Il potere della parola rende possibile l'eliminazione di queste strutture solidificate e libera l'energia vitale per la realizzzione del nostro vero compito nello spazio e nel tempo._
+* _Il potere della parola rende possibile l'eliminazione di queste strutture solidificate e libera l'energia vitale per la realizzzione del nostro vero compito nello spazio e nel tempo._
 
 L'esperienza di benessere che si vive con la logosintesi è tanto immediata e affascinante quanto semplice e potente perchè **attiva il nostro sistema di auto-guarigione** con il solo pronunciare parole apparentemente uguali alle solite che diciamo ogni giorno.
 
