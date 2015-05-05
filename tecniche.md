@@ -11,11 +11,9 @@ Le tecniche sistemiche si stanno rapidamente diffondendo sia in Italia che
 all'estero. Ad ogni sessione, la loro efficacia e velocità nei risultati
 permette un incremento subito tangibile del proprio **benessere emotivo**.
 
-Le tecniche qui presentate sono [PSYCH-K](http://www.ricchidivita.com/index.as
-px?area=news&sezi_cd_sezi=529&pnews_id_pnews=3664), [LOGOSINTESI](http://www.r
-icchidivita.com/index.aspx?area=news&sezi_cd_sezi=529&pnews_id_pnews=4020) ed
-[E.F.T.](http://www.ricchidivita.com/index.aspx?area=news&sezi_cd_sezi=529&pne
-ws_id_pnews=4021) e, pur essendo differenti l'una dall'altra nell'esecuzione e
+Le tecniche qui presentate sono <a href="#tecniche-psych-k" data-toggle="modal">PSYCH-K</a>, 
+<a href="#tecniche-logosintesi" data-toggle="modal">LOGOSINTESI</a> ed
+<a href="#tecniche-eft" data-toggle="modal">E.F.T.</a> e, pur essendo differenti l'una dall'altra nell'esecuzione e
 nei principi su cui si basano, hanno in realtà un obiettivo comune: **sviluppa
 la capacità di gestire l'energia personale** di chi le utilizza e **la
 collaborazione fra le persone** nelle situazioni  quotidiane.
@@ -59,7 +57,7 @@ La straordinarietà di questi sistemi, oltre che nella loro efficacia,
 semplicità e sicurezza, risiede nella velocità, poichè può accadere che
 problemi emotivi che ristagnano da anni siano risolti in pochi minuti.
 
-L'efficacia e la semplicità d'esecuzione rende <a href="#tecniche-psych-k"  data-toggle="modal">PSYCH-K</a>, <a href="#tecniche-logosintesi"  data-toggle="modal">LOGOSINTESI</a> ed <a href="#tecniche-eft" data-toggle="modal">E.F.T.</a> un aiuto prezioso e ineguagliabile per vivere
+L'efficacia e la semplicità d'esecuzione rende <a href="#tecniche-psych-k" data-toggle="modal">PSYCH-K</a>, <a href="#tecniche-logosintesi" data-toggle="modal">LOGOSINTESI</a> ed <a href="#tecniche-eft" data-toggle="modal">E.F.T.</a> un aiuto prezioso e ineguagliabile per vivere
 con un sano senso di** libertà e realizzazione di sè**.
 
 Per ulteriori approfondimenti potete visitare il sito italiano [www.psicologia-energetica.it](http://www.psicologia-energetica.it/) oppure il sito americano [www.energypsych.org](http://www.energypsych.org/).
