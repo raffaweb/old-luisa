@@ -300,8 +300,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 235px;
-        padding-bottom: 165px;
+        padding-top: 250px;
+        padding-bottom: 150px;
     }
 
     header .intro-text .intro-lead-in {
@@ -317,7 +317,7 @@ header .intro-text .intro-heading {
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 65px;
         line-height: 75px;
-        color: #{{ site.color.secondary }};
+        color: #f3cc62;
     }
 }
 
@@ -697,6 +697,7 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    line-height: 20px;
 }
 
 aside.clients img {
