@@ -8,56 +8,46 @@
             </div>
         </div>
         <div class="row text-center">
+            {% for post in site.categories['philosophy'] %}
             <div class="col-md-4">
+            <a href="#philosophy-{{ post.title | slugify }}" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover"></div>
                 <span class="fa-stack fa-5x">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-puzzle-piece fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-{{post.faicon}} fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="service-heading">Apprendi</h4>
-                <p class="text-muted" style="font-size: 95%;">Il vero apprendimento va al cuore di ciò che significa essere umani.<br>
-                Mediante l’apprendimento, noi ricreiamo noi stessi. Mediante
-                l’apprendimento ci mettiamo in condizione di fare qualcosa che non
-                siamo mai stati in grado di fare. Mediante l’apprendimento
-                ri percepiamo il mondo e il nostro rapporto con il mondo. Mediante
-                l’apprendimento, estendiamo la nostra capacità di creare, di essere parte
-                del processo generativo della vita. Dentro di noi desideriamo profondamente questo tipo di apprendimento. Come afferma l’antropologo
-                Edward Hall, ‘l’essere umano è l’organismo di apprendimento per
-                eccellenza. Il desiderio di apprendere è tanto forte quanto il desiderio
-                sessuale: inizia presto e dura a lungo’. (Peter Senge, LA QUINTA
-                DISCIPLINA)</p>
+            </a>
+                <h4 class="service-heading">{{post.title}}</h4>
+                <p class="text-muted" style="font-size: 95%;">{{post.subtitle}}.</p>
             </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-5x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Guida</h4>
-                <p class="text-muted" style="font-size: 95%;">Si dice che alcuni nascano leader e altri lo diventino.
-                    Tutti nascono leader.<br>
-                    Col tempo si può poi apprendere a guidare consapevolmente se stessi, gli altri, i team e le organizzazioni in un vero viaggio di scoperta di sè.
-                    Per funzionare bene nella complessità in cui ci muoviamo oggi, abbiamo inoltre bisogno di una leadership sistemica, un approccio integrato che sia sostenibile, ecologico e autopoietico.<br>
-                    Nella tavolozza di sfumature possibili, trovare e agire il colore della propria leadership è l’espressione di un stile di vita che tende all’armonia e a costruire buone relazioni, elementi che sono alla base di fiducia, flessibilità, chiarezza, confronto, condivisione e collaborazione per far crescere e evolvere sane organizzazioni.</p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-5x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-refresh fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Trasforma</h4>
-                <p class="text-muted" style="font-size: 95%;">Evolversi è passare da un livello a quello più progredito. Trasformarsi è
-mutarsi in qualcosa che è altro da sè, con pensieri comportamenti e
-convinzioni coerenti con il nuovo essere che si è diventati.
-Le organizzazioni che cercano una cultura di trasformazione evolutiva
-sono guidate da chi si fa coinvolgere nei processi di cambiamento e, al
-contempo dà attenzione e supporto alla crescita di altri, individui e team,
-che aumentano così l’autostima, l'autoefficacia e l'autodeterminazione.
-Chi trasforma per evolvere fa scelte condivise basandosi sugli elementi
-che danno energia, entusiasmo e forza, guida lasciando emergere risorse
-latenti e ispira ad appropriarsi con consapevolezza e responsabilità del
-proprio potenziale per realizzare la propria
-crescita e quella dell’azienda di cui è parte.</p>
-            </div>
+            {% endfor %}
         </div>
+
     </div>
 </section>
 
+
+     <!-- Modals -->
+     {% for post in site.categories['philosophy'] %}
+        <div class="portfolio-modal modal fade" id="philosophy-{{ post.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <h2 style="margin-bottom: 2em;">{{ post.title }}</h2>
+                                <div class="text-left">{{ post.content }}</div>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
