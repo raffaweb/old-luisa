@@ -27,6 +27,10 @@ p.large {
     font-size: 18px;
 }
 
+.philosophy p {
+    font-size: 14px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -933,3 +937,4 @@ body {
 }
 
 a[href^=tel] { color: inherit; text-decoration: none; }
+
