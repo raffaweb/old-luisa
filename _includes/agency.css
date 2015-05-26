@@ -298,7 +298,7 @@ header .intro-text .intro-heading {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     line-height: 50px;
-    color: #{{ site.color.secondary }};
+    color: #fff;
 
 }
 
