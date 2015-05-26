@@ -293,10 +293,20 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
+header .intro-text .intro-heading-super {
+    margin-bottom: 10px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 37px;
+    line-height: 50px;
+    color: #fff;
+
+}
+
+header .intro-text .intro-heading-sub {
+    margin-bottom: 5px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    font-style: italic;
     line-height: 50px;
     color: #fff;
 
@@ -316,11 +326,20 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    header .intro-text .intro-heading-super {
         margin-bottom: 0px;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 65px;
+        font-size: 56px;
         line-height: 75px;
+        color: #fff;
+    }
+
+    header .intro-text .intro-heading-sub {
+        margin-bottom: 0px;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size:  48px;
+        line-height: 75px;
+        font-style: italic;
         color: #fff;
     }
 }
