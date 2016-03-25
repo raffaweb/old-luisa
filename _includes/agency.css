@@ -957,3 +957,6 @@ body {
 
 a[href^=tel] { color: inherit; text-decoration: none; }
 
+strong {
+    color: #f1b23b;
+}
